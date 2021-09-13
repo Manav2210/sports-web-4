@@ -1,0 +1,93 @@
+
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+header
+{
+	padding: 20px;
+	background-size: cover;
+	position: relative;}
+
+
+body{
+background-color: #FF0070;
+}
+
+form{
+display: flex;
+justify-content: space-between;
+
+
+color: #37003c;
+font-family: PremierSans-Regular,Arial,Helvetica Neue,Helvetica,sans-serif;}
+
+#year{
+  background: #FF0070;
+  border: solid 1px #FF0070 ;
+  color:#37003c;
+  font-size: 30px;
+justify-content: center;
+
+}
+
+h1{text-align: left;
+font-weight: 600;
+font-size: 120px;
+color: #37003c;
+font-family: PremierSans-Regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+font-style: oblique;}
+
+
+#logo{display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+
+}
+
+#submit{  background: #37003c;
+  border: solid 1px #37003c ;
+  border-radius: 10px;
+  color:#FF0070;
+  font-size: 30px;
+justify-content: center;
+}
+
+#justf{display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+span{margin: -30px;
+display: inline-block;}
+
+.name{text-decoration:line-through 10px #FF0070;;}
